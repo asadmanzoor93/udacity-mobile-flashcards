@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { withNavigation } from 'react-navigation';
-import { View, Text, StyleSheet, ViewPagerAndroid } from 'react-native';
+import { View, Text, StyleSheet } from 'react-native';
+import ViewPager from '@react-native-community/viewpager';
 
 import TextButton from '../button/textButton';
 import ClickButton from '../button/clickButton';
 import ResultDetail from "./resultDetail";
 import RestrictedQuiz from "./restrictedQuiz";
-import { gray, green, red, darkGray, white } from '../../helpers';
 import deck from "../deck/deck";
+import { gray, green, red, darkGray, white } from '../../helpers';
 
 const screen = {
   QUESTION: 'question',
@@ -88,7 +89,7 @@ export class AndroidDevice extends Component {
     }
 
     return (
-        <ViewPagerAndroid
+        <ViewPager
             style={styles.container}
             scrollEnabled={true}
             onPageSelected={this.handlePageChange}
@@ -148,7 +149,7 @@ export class AndroidDevice extends Component {
                 </View>
               </View>
           ))}
-        </ViewPagerAndroid>
+        </ViewPager>
     );
   }
 }

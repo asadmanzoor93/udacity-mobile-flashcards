@@ -29,3 +29,10 @@ This will open Expo Developer Tools in the browser. You can then do one of the f
 - Use an Android Emulator or iOS Simulator to run the app:
   - [iOS Simulator Setup](https://docs.expo.io/versions/v35.0.0/introduction/installation/#ios-simulator)
   - [Android Emulator Setup](https://docs.expo.io/versions/v35.0.0/introduction/installation/#android-emulator)
+
+## Screens
+
+![WhatsApp Image 2020-09-12 at 04 47 38](https://user-images.githubusercontent.com/17013371/92981506-971ffa00-f4b3-11ea-9c9e-c279ce9162e5.jpeg)
+![WhatsApp Image 2020-09-12 at 04 47 34](https://user-images.githubusercontent.com/17013371/92981516-9b4c1780-f4b3-11ea-9c9f-7f4d2b7e0c26.jpeg)
+![WhatsApp Image 2020-09-12 at 04 47 30](https://user-images.githubusercontent.com/17013371/92981520-9e470800-f4b3-11ea-8061-83e781dc88ad.jpeg)
+![WhatsApp Image 2020-09-12 at 04 47 26](https://user-images.githubusercontent.com/17013371/92981531-a4d57f80-f4b3-11ea-9f1f-647e077dd38c.jpeg)
